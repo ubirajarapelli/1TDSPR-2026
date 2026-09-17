@@ -5,3 +5,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1, h2, h3, h4 {
+  color: #5d0202;
+}
