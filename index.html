@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>GIT</h1>
+    <h2>Configuração Inicial</h2>
+    <code>
+      git config --global user.name "Seu Nome"<br />
+      git config --global user.email seu@email.com
+    </code>
+
+    <h3>Criando um Projeto com Git</h3>
+    <p>Inicializando um repositório</p>
+    <code> git init </code>
+    <hr />
+
+    <h2>Principais Comandos do Git</h2>
+
+    <h3>Status do repositório</h3>
+    <code> git status </code>
+
+    <h3>Adicionando arquivos</h3>
+    <code>git add nome-do-arquivo </code>
+
+    <h3>Fazendo um commit</h3>
+    <code> git commit -m "Adiciona arquivo.txt com mensagem Hello World" </code>
+
+    <h3>Visualizando histórico</h3>
+    <code>git log</code>
+
+    <hr />
+
+    <h2>Ciclo de Trabalho do Git</h2>
+
+    <ul>
+      <li>
+        <strong>Working Directory</strong>:
+        <span>Traqueados e/ou Modificados</span>
+      </li>
+
+      <li><strong>Staging Area</strong>: <span>Arquivos adicionados</span></li>
+
+      <li><strong>Repository</strong>: <span>Arquivos comitados</span></li>
+    </ul>
+
+    <hr />
+
+    <h2>Branchs</h2>
+
+    <p>Criar nova branch</p>
+    <code>git branch nome-da-branch</code>
+    <p>Alterar de branch</p>
+    <code>git checkout nova-feature</code>
+  </body>
+</html>
